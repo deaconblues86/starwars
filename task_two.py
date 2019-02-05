@@ -1,12 +1,13 @@
 import json
-import time
-from utils import rand_id
+from utils import metric2imperial
 from classes import Film
 
 if __name__ == "__main__":
     film = Film(1)
 
     film.get_all_cross_refs()
-    print(film.write_contents())
+    for char in film.characters:
+        char["mass"] = metric2imperial(char["mass"], "kg", "lb")
+        char["height"] = metric2imperial(char["mass"], "cm", "ft")
     with open("task_two.json", "w") as f:
         f.write(json.dumps(film.write_contents(), indent=2))

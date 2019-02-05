@@ -86,6 +86,13 @@ class Character(BaseSwapi):
         self.details = self.get_request(self.url + str(self.id))
         self.unpack_deets()
 
+    def prep_for_db(self):
+        '''
+        cleans up films attr for db load
+        '''
+        self.films = '|'.join([f["title"] for f in self.films])
+        self.height = str(self.height)
+
 
 class Film(BaseSwapi):
     '''
@@ -102,6 +109,9 @@ class Film(BaseSwapi):
         self.unpack_deets()
 
     def write_contents(self):
+        '''
+        Returns contents of Film.  This will include cross referenced items if requested
+        '''
         contents = vars(self)
         contents = {k: v for k, v in contents.items() if k in self.details}
         return contents

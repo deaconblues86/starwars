@@ -10,5 +10,6 @@ setup(name='StarWars',
         'sqlalchemy==1.2.17',
         'requests==2.21.0',
         'protobuf>=3.0.0',
+        'mysqlclient==1.4.1'
       ]
 )

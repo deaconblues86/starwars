@@ -9,6 +9,9 @@ class TestMetricConversion(unittest.TestCase):
     def test_cm2ft(self):
         self.assertEqual(metric2imperial(100, "cm", "ft"), 3.28)
 
+    def test_invalid(self):
+        self.assertEqual(metric2imperial("unknown", "cm", "ft"), "unknown")
+
     def test_failure(self):
         with self.assertRaises(KeyError):
             metric2imperial(100, "in", "ft")
