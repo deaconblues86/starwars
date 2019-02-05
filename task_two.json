@@ -8,7 +8,7 @@
   "characters": [
     {
       "name": "Luke Skywalker",
-      "height": 5.57,
+      "height": 5.64,
       "mass": 169.78,
       "hair_color": "blond",
       "skin_color": "fair",
@@ -20,7 +20,7 @@
     },
     {
       "name": "C-3PO",
-      "height": 5.43,
+      "height": 5.48,
       "mass": 165.38,
       "hair_color": "n/a",
       "skin_color": "gold",
@@ -32,7 +32,7 @@
     },
     {
       "name": "R2-D2",
-      "height": 2.31,
+      "height": 3.15,
       "mass": 70.56,
       "hair_color": "n/a",
       "skin_color": "white, blue",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Darth Vader",
-      "height": 9.84,
+      "height": 6.63,
       "mass": 299.88,
       "hair_color": "none",
       "skin_color": "white",
@@ -56,7 +56,7 @@
     },
     {
       "name": "Leia Organa",
-      "height": 3.54,
+      "height": 4.92,
       "mass": 108.05,
       "hair_color": "brown",
       "skin_color": "light",
@@ -68,7 +68,7 @@
     },
     {
       "name": "Owen Lars",
-      "height": 8.68,
+      "height": 5.84,
       "mass": 264.6,
       "hair_color": "brown, grey",
       "skin_color": "light",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Beru Whitesun lars",
-      "height": 5.43,
+      "height": 5.41,
       "mass": 165.38,
       "hair_color": "brown",
       "skin_color": "light",
@@ -92,7 +92,7 @@
     },
     {
       "name": "R5-D4",
-      "height": 2.31,
+      "height": 3.18,
       "mass": 70.56,
       "hair_color": "n/a",
       "skin_color": "white, red",
@@ -104,7 +104,7 @@
     },
     {
       "name": "Biggs Darklighter",
-      "height": 6.08,
+      "height": 6.0,
       "mass": 185.22,
       "hair_color": "black",
       "skin_color": "light",
@@ -116,7 +116,7 @@
     },
     {
       "name": "Obi-Wan Kenobi",
-      "height": 5.57,
+      "height": 5.97,
       "mass": 169.78,
       "hair_color": "auburn, white",
       "skin_color": "fair",
@@ -128,7 +128,7 @@
     },
     {
       "name": "Wilhuff Tarkin",
-      "height": "unknown",
+      "height": 5.91,
       "mass": "unknown",
       "hair_color": "auburn, grey",
       "skin_color": "fair",
@@ -140,7 +140,7 @@
     },
     {
       "name": "Chewbacca",
-      "height": 8.1,
+      "height": 7.48,
       "mass": 246.96,
       "hair_color": "brown",
       "skin_color": "unknown",
@@ -152,7 +152,7 @@
     },
     {
       "name": "Han Solo",
-      "height": 5.79,
+      "height": 5.91,
       "mass": 176.4,
       "hair_color": "brown",
       "skin_color": "fair",
@@ -164,7 +164,7 @@
     },
     {
       "name": "Greedo",
-      "height": 5.35,
+      "height": 5.68,
       "mass": 163.17,
       "hair_color": "n/a",
       "skin_color": "green",
@@ -176,7 +176,7 @@
     },
     {
       "name": "Jabba Desilijic Tiure",
-      "height": "1,358",
+      "height": 5.74,
       "mass": "1,358",
       "hair_color": "n/a",
       "skin_color": "green-tan, brown",
@@ -188,7 +188,7 @@
     },
     {
       "name": "Wedge Antilles",
-      "height": 5.57,
+      "height": 5.58,
       "mass": 169.78,
       "hair_color": "brown",
       "skin_color": "fair",
@@ -200,7 +200,7 @@
     },
     {
       "name": "Jek Tono Porkins",
-      "height": 7.96,
+      "height": 5.91,
       "mass": 242.55,
       "hair_color": "brown",
       "skin_color": "fair",
@@ -212,7 +212,7 @@
     },
     {
       "name": "Raymus Antilles",
-      "height": 5.71,
+      "height": 6.17,
       "mass": 174.19,
       "hair_color": "brown",
       "skin_color": "light",
