@@ -10,11 +10,12 @@ Two test scripts are included in this repo to demonstrate how one may pull data 
 Before running any of the scripts, please ensure you meet the prerequisites listed above.  Both MySQL Community Edition and Python 3.6 are available for free at the links below:
 - MySQL: https://dev.mysql.com/downloads/mysql/
 - Python: https://www.python.org/downloads/release/python-360/
-Note that this project was developed on a Windows 10 box so you're installation process may be slightly different -- mostly referring to installing python when using Linux.
+Note that this project was developed on a Windows 10 box so you're installation process may be slightly different -- mostly referring to installing python when using Linux.  Additionally, all required external packages can be installed by running the following command:
+- pip install -e .
 
 # task_one.py
 1. GET 15 random characters and the names of the films they have been in using Python.
-2. Insert into MySQL (SQL database schema(s) for any table(s) created are included)
+2. Characters will be insert into MySQL (SQL database schema(s) for any table(s) created are included)
 3. Characters, by film, received will be written to the console
 
 # task_two.py
