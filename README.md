@@ -28,4 +28,4 @@ Note: task_one.py will require three command line arguments to run, username, pa
 - A New Hope has character, planet, starship, vehicle, and species data that will be retrieved and replaced.
 3. All metric heights and weights of each character will be converted to standard units.
 4. All cross referencing material from the data being replaced will be removed (e.g. Luke Skywalker, when pulled would have unwanted cross referencing urls such as films, species, vehicles, and spaceships)
-5. Lastly, the dictionary that's been created will be writtem to a JSON file locally named task_two.json.
+5. Lastly, the dictionary that's been created will be written to a JSON file locally named task_two.json.
