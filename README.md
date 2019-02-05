@@ -16,8 +16,9 @@ Note that this project was developed on a Windows 10 box so your installation pr
 
 # task_one.py
 1. GET 15 random characters and the names of the films they have been in using Python.
-2. Characters will be inserted into MySQL (SQL database schema for the character table that will created are included)
-3. Characters, by film, received will be written to the console
+2. Database and Character table will be created upon initial execution (schema for the character table has been included in db.py)
+3. Characters will be inserted into MySQL
+4. Characters, by film, will then be written to the console
 
 Note: task_one.py will require three command line arguments to run, username, password, and host for MySQL.  For example:
 - python task_one.py -u root -p password -d localhost
