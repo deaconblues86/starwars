@@ -1,5 +1,4 @@
 import requests
-import json
 from constants import (
     base_url,
     char_endpoint,

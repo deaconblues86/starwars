@@ -7,9 +7,9 @@ setup(name='StarWars',
       author_email='hammillbc@gmail.com',
       url='https://github.com/deaconblues86/starwars',
       install_requires=[
+        'protobuf>=3.0.0',
+        'mysqlclient==1.4.1',
         'sqlalchemy==1.2.17',
         'requests==2.21.0',
-        'protobuf>=3.0.0',
-        'mysqlclient==1.4.1'
       ]
 )

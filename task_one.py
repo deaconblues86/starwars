@@ -49,7 +49,6 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(e)
-        print("Dropping table from DB")
-        # Clean up DB afterwards
-        db.drop_table(engine, char_table)
+
+    finally:
         db.db_close(engine)

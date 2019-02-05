@@ -29,3 +29,10 @@ Note: task_one.py will require three command line arguments to run, username, pa
 3. All metric heights and weights of each character will be converted to standard units.
 4. All cross referencing material from the data being replaced will be removed (e.g. Luke Skywalker, when pulled would have unwanted cross referencing urls such as films, species, vehicles, and spaceships)
 5. Lastly, the dictionary that's been created will be written to a JSON file locally named task_two.json.
+
+# unit_tests.py
+1. Contains a few simple unit tests that, when run, will exercise utility functions.
+
+# To Do
+1. Create remaining unit tests.  Requires mocking DB and API responses.
+2. Create Docker version to ease environment setup.  Requires the use of Docker Toolbox, a legacy version, when running on Windows 10 Home.
