@@ -47,7 +47,9 @@ if __name__ == "__main__":
         print(json.dumps(characters_by_film, indent=2))
         db.db_close(engine)
 
-    finally:
+    except Exception as e:
+        print(e)
+        print("Dropping table from DB")
         # Clean up DB afterwards
         db.drop_table(engine, char_table)
         db.db_close(engine)
