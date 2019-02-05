@@ -11,7 +11,7 @@ Before running any of the scripts, please ensure you meet the prerequisites list
 - MySQL: https://dev.mysql.com/downloads/mysql/
 - Python: https://www.python.org/downloads/release/python-360/
 
-Note that this project was developed on a Windows 10 box so you're installation process may be slightly different -- mostly referring to installing python when using Linux.  Additionally, all required external packages can be installed by running the following command:
+Note that this project was developed on a Windows 10 box so your installation process may be slightly different -- mostly referring to installing python when using Linux.  Additionally, all required external packages can be installed by running the following command:
 - pip install -e .
 
 # task_one.py
@@ -20,12 +20,12 @@ Note that this project was developed on a Windows 10 box so you're installation 
 3. Characters, by film, received will be written to the console
 
 Note: task_one.py will require three command line arguments to run, username, password, and host for MySQL.  For example:
-- python .\task_one.py -u root -p <password> -d localhost
+- python task_one.py -u root -p password -d localhost
 
 # task_two.py
 1. Pulls data from the films endpoint for the movie A New Hope
 2. Replaces the data for each of the endpoints listed in the JSON object received from the API request (e.g. for all the character endpoints, data will be pulled for each and inserted into the JSON object)
-2a. A New Hope has character, planet, starship, vehicle, and species data that will be retrieved and replaced.
+- A New Hope has character, planet, starship, vehicle, and species data that will be retrieved and replaced.
 3. All metric heights and weights of each character will be converted to standard units.
 4. All cross referencing material from the data being replaced will be removed (e.g. Luke Skywalker, when pulled would have unwanted cross referencing urls such as films, species, vehicles, and spaceships)
 5. Lastly, the dictionary that's been created will be writtem to a JSON file locally named task_two.json.
